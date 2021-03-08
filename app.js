@@ -19,7 +19,7 @@ document.getElementById("color-2").innerHTML = jacket.color;
 
 // Filter Button
 document.getElementById("filter").addEventListener('click', function () {
-    if (jacket.show = false) {
+    if (jacket.show == false) {
         var removeJacket = document.getElementById("type-2")
         removeJacket.remove();
     } 
